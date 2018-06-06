@@ -5,8 +5,9 @@ let customerSay4 = "salam";
 let customerSay5 = "Is Uit Open Today";
 let customerSay6 = "What are the timings of today's class";
 let customerSay7 = "Where will be the class conducted";
+let customerAskAnythingElse;
 
-let customerAsk = customerSay5;
+let customerAsk = customerAskAnythingElse;
 
 if (customerAsk == customerSay1 || customerAsk == customerSay2 || customerAsk == customerSay3 || customerAsk == customerSay4){
     console.log ("Thank you for calling TechKaro Customer Service. How may I help you?");
